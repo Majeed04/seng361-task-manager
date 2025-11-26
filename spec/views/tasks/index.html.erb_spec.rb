@@ -7,11 +7,13 @@ RSpec.describe "tasks/index", type: :view do
         title: "Title",
         description: "MyText",
         completed: false
+        due_date: Date.today
       ),
       Task.create!(
         title: "Title",
         description: "MyText",
         completed: false
+        due_date: Date.today
       )
     ])
   end

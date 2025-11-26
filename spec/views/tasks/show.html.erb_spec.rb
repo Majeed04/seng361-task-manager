@@ -6,6 +6,7 @@ RSpec.describe "tasks/show", type: :view do
       title: "Title",
       description: "MyText",
       completed: false
+      due_date: Date.today
     ))
   end
 
