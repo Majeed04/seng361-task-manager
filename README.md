@@ -1,24 +1,61 @@
-# README
+📌 Simple Task Manager – A SaaS App
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A lightweight Ruby on Rails application built for SENG-361 to demonstrate Agile Scrum, TDD (RSpec), and BDD (Cucumber).
 
-Things you may want to cover:
+✨ Features
+	•	Create, view, update, and delete tasks
+	•	Mark tasks as completed
+	•	Validations on title, description, and due date
+	•	Simple CRUD interface
+🚀 How to Run the App
+1. Clone the repository
 
-* Ruby version
+git clone https://github.com/Majeed04/seng361-task-manager.git
+cd seng361-task-manager
 
-* System dependencies
+2. Install dependencies
 
-* Configuration
+bundle install
 
-* Database creation
+3. Setup the database
 
-* Database initialization
+rails db:migrate
 
-* How to run the test suite
+4. Start the server
 
-* Services (job queues, cache servers, search engines, etc.)
+rails server
 
-* Deployment instructions
+Then open:
 
-* ...
+http://localhost:3000/tasks
+
+🧪 Running Tests
+RSpec (TDD – unit tests)
+
+bundle exec rspec
+
+Cucumber (BDD – acceptance test)
+
+bundle exec cucumber
+
+📚 Documentation
+All user stories + acceptance criteria + test mapping are documented inside:
+
+BACKLOG.md
+
+🗂 Agile Scrum Artifacts
+GitHub Issues = User Stories
+GitHub Project Board = Scrum Board
+Milestone = Sprint 1 Deliverables
+
+👨‍💻 Tools Used
+Ruby on Rails
+RSpec
+Cucumber
+GitHub
+VS Code
+Terminal
+
+📦 Created by
+Abdulmajeed Abdullah Alnaam
+202204545
